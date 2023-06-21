@@ -1,5 +1,26 @@
-import { A_NUMBER, B_NUMBER, sum } from './utils';
+import {
+  BoxConst,
+  BoxDefault,
+  SpacerConstAliased,
+  SpacerConstForwarded,
+  SpacerProps,
+  dataJson,
+} from "./components";
 
-const result = sum(A_NUMBER, B_NUMBER)
+import { InfoObject, BoxConstFromOther, BoxDefaultFromOther } from "./other";
 
-console.log(`The sum is ${result}`)
+const wrongWidthType: SpacerProps = {
+  width: "not-a-number",
+};
+
+console.log({ BoxConst: BoxConst() });
+console.log({ BoxDefault: BoxDefault() });
+console.log({ SpacerConstAliased: SpacerConstAliased() });
+console.log({ SpacerConstForwarded: SpacerConstForwarded() });
+console.log({ dataJson });
+
+console.log();
+
+console.log({ InfoObject });
+console.log({ BoxConstFromOther: BoxConstFromOther() });
+console.log({ BoxDefaultFromOther: BoxDefaultFromOther() });
