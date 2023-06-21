@@ -3,8 +3,7 @@
     "plugins": [
       {
         "transform": "@typescript-virtual-barrel/compiler-plugin",
-        "transformProgram": true,
-        "shouldTransformImports": true
+        "transformProgram": true
       },
       {
         "name": "@typescript-virtual-barrel/language-service-plugin"
