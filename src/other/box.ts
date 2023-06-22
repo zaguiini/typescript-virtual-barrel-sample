@@ -1,5 +1,5 @@
-const BoxDefaultFromOther = () => 'BoxDefaultFromOther'
+const BoxDefaultFromOther = () => "BoxDefaultFromOther";
 
-export default BoxDefaultFromOther
+export default BoxDefaultFromOther;
 
-export const BoxConstFromOther = () => 'BoxConstFromOther'
+export const BoxConstFromOther = () => "BoxConstFromOther";

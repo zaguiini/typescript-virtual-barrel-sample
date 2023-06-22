@@ -1,8 +1,8 @@
-const SpacerConstForwarded = () => 'SpacerConstForwarded'
-const SpacerConst = () => 'SpacerConstAliased'
+const SpacerConstForwarded = () => "SpacerConstForwarded";
+const SpacerConst = () => "SpacerConstAliased";
 
-export { SpacerConst as SpacerConstAliased, SpacerConstForwarded }
+export { SpacerConst as SpacerConstAliased, SpacerConstForwarded };
 
 export type SpacerProps = {
-    width: number
-}
+  width: number;
+};

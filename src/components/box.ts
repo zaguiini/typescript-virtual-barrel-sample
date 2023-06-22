@@ -1,5 +1,5 @@
 export default function BoxDefault() {
-    return 'BoxDefault'
+  return "BoxDefault";
 }
 
-export const BoxConst = () => 'BoxConst'
+export const BoxConst = () => "BoxConst";

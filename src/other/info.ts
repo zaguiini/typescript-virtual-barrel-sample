@@ -1,5 +1,5 @@
 const InfoObject = {
-    prop1: 'value'
-}
+  prop1: "value",
+};
 
-export default InfoObject
+export default InfoObject;
