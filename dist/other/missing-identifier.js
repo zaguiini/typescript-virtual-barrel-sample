@@ -1,6 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-function default_1() {
+export default function () {
     return 'I am useless.';
 }
-exports.default = default_1;
