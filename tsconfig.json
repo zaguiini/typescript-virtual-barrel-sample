@@ -3,17 +3,18 @@
     "plugins": [
       {
         "transform": "@typescript-virtual-barrel/compiler-plugin",
-        "transformProgram": true
+        "transformProgram": true,
+        "shouldTransformImports": false
       },
       {
         "name": "@typescript-virtual-barrel/language-service-plugin"
       },
     ],
     /* Language and Environment */
-    "target": "ES5",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
-    "moduleResolution": "node",
+    "target": "ESNext",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "moduleResolution": "NodeNext",
     /* Modules */
-    "module": "CommonJS",                                /* Specify what module code is generated. */
+    "module": "ESNext",                                /* Specify what module code is generated. */
     "resolveJsonModule": true,                        /* Enable importing .json files. */
     "outDir": "./dist",                                   /* Specify an output folder for all emitted files. */
     // "removeComments": true,                           /* Disable emitting comments. */
