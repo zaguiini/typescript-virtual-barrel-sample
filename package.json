@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@typescript-virtual-barrel/compiler-plugin": "^0.0.1",
-    "@typescript-virtual-barrel/language-service-plugin": "^0.0.1",
+    "@typescript-virtual-barrel/language-service-plugin": "^0.0.2",
     "rimraf": "^5.0.1",
     "ts-patch": "^2.0.2",
     "typescript-transform-paths": "^3.4.6"
