@@ -10,6 +10,7 @@
         "name": "@typescript-virtual-barrel/language-service-plugin"
       },
     ],
+    "importHelpers": true,
     /* Language and Environment */
     "target": "ES5",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
     "moduleResolution": "node",
