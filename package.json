@@ -1,14 +1,14 @@
 {
   "name": "typescript-virtual-barrel-sample",
   "version": "1.0.0",
-  "main": "dist/index.js",
+  "main": "dist/program.js",
   "license": "MIT",
   "scripts": {
     "postinstall": "ts-patch install",
     "check": "tsc --noEmit",
     "prebuild": "rimraf dist",
     "build": "tsc",
-    "start": "node dist/index.js"
+    "start": "node dist/program.js"
   },
   "dependencies": {
     "@types/node": "^18.8.3",
