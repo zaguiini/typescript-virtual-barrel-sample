@@ -18,7 +18,7 @@ Run the compiler with `npm run build` and execute the project with `npm start`. 
 { BoxDefaultFromOther: 'BoxDefaultFromOther' }
 ```
 
-All those symbols is exported by the `./src/{components,other}` virtual barrels.
+All those symbols are exported by the `./src/{components,other}` virtual barrels.
 
 There is more explanation [in the repo](https://github.com/zaguiini/typescript-virtual-barrel), but keeping it short: I've created a compiler plugin that resolves barrel imports that doesn't exist. Crazy, right?
 
